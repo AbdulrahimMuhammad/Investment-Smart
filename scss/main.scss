@@ -1,0 +1,342 @@
+//color: 
+$dark-blue: #050521;
+$dark-gold: #DB9800;
+$pale-grey: #B3B3B3;
+$navy-blue: #0D0D26;
+$light-grey: #F2F3F8;
+
+//fonts
+$heading:'Arvo',
+serif;
+$openSans:'Open Sans',
+sans-serif;
+
+
+//headingStyles
+@mixin sectionHeadings {
+    color: $dark-blue;
+    font-family: $heading;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1.25px;
+    word-spacing: 0;
+    text-align: center;
+    padding: 2rem;
+}
+
+//articalIcons
+@mixin artIcons {
+    font-size: 3rem;
+    color: $dark-gold;
+    padding-bottom: 60rem;
+}
+
+@mixin aboutIcons {
+    color: $dark-gold;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    height: 1000rem;
+}
+
+.top-sec {
+    background-color: $dark-blue;
+    padding: 0.8rem;
+
+    ul {
+        width: 100%
+    }
+
+    li {
+        list-style: none;
+        margin-left: 3rem;
+        float: left;
+        &:first-child {
+            margin-left: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+.main-nav {
+    padding: 2rem;
+    background-color: #fff;
+
+    .nav-link {
+        color: $dark-blue;
+        font-size: 16px;
+        margin-left: 1rem;
+
+        &:hover {
+            color: $dark-gold;
+        }
+    }
+}
+
+.header {
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(../img/home-slider-1-slide-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .main-caption {
+        position: absolute;
+        top: 26%;
+        left: 23%;
+        text-align: center;
+        color: #fff;
+        font-family: $heading;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        letter-spacing: -1.25px;
+        word-spacing: 0;
+    }
+
+    h5 {
+        font-size: 1.7rem;
+        line-height: 28.8px;
+        font-weight: 400;
+        padding-bottom: 3rem;
+    }
+
+    .main-button {
+        margin-top: 1.5rem;
+    }
+}
+
+.services {
+    text-align: center;
+    padding: 1.8rem;
+    width: 100%;
+
+    .titles {
+        text-align: center;
+        display: inline-block;
+
+        h2 {
+            @include sectionHeadings;
+        }
+    }
+
+    .article {
+        text-align: center;
+        width: 100%;
+
+        .article-items {
+            border: 1px solid $dark-gold;
+            padding: 3rem;
+            margin: 2.5rem;
+            text-align: center;
+
+            .art-icons {
+                @include artIcons;
+            }
+
+            h6 {
+                color: $dark-blue;
+                font-size: 1.2rem;
+                line-height: 30px;
+                font-weight: 800;
+                text-align: center;
+                font-family: $openSans;
+
+                a {
+                    text-decoration: none;
+                    color: $dark-blue;
+
+                }
+
+                p {
+                    font-family: $openSans;
+                    font-size: 1rem;
+                    line-height: 24px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.about {
+    width: 100%;
+    .mission {
+        background-color: $light-grey;
+        padding: 4rem 2rem 4.5rem 4rem;
+
+        .titles {
+            text-align: left;
+            display: inline-block;
+
+            h2 {
+                @include sectionHeadings;
+                padding: 1.5rem;
+            }
+        }
+
+        .about-img {
+            border: 1rem solid #fff;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .sub-title {
+            h6 {
+                color: $dark-blue;
+                font-size: 1.2rem;
+                line-height: 3rem;
+                margin-top: 1rem;
+                font-weight: 800;
+                font-family: $heading;
+            }
+        }
+
+        p {
+            font-family: $openSans;
+            font-size: 0.9rem;
+            line-height: 24px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+
+    .risk {
+        background-image: linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/Laptop-with-graphs.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        color: #fff;
+        padding: 3rem;
+
+        .risk-content {
+            border: 1px solid grey;
+            padding: 3rem 4rem 5rem 4rem;
+            text-align: left;
+
+            .titles {
+                text-align: left;
+                display: inline-block;
+
+                h2 {
+                    @include sectionHeadings;
+                    color: #fff;
+                    padding: 1rem;
+                }
+            }
+
+            .sub-title {
+                h6 {
+                    font-size: 1.2rem;
+                    font-weight: 800;
+                    font-family: $openSans;
+                    text-align: left;
+                    padding: 1rem 0;
+                }
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 1rem;
+                line-height: 1.6rem;
+                font-weight: 400;
+                text-align: left;
+                font-family: $openSans;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 1rem 0;
+                text-align: left;
+
+                li {
+                    font-size: 1rem;
+                    line-height: 2rem;
+                    font-weight: 400;
+
+                    .about-icons {
+                        @include aboutIcons;
+                    }
+                }
+            }
+
+            .about-btn {
+                padding: 1rem 4rem;
+                border: 0%;
+                margin-top: 1rem;
+                font-size: 1rem;
+                font-family: $heading;
+                line-height: rem;
+                vertical-align: middle;
+                color: #fff;
+                background-color: $dark-gold;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: inherit;
+
+                .btn-icon {
+                    font-size: 0.9rem;
+                    font-weight: 50;
+                }
+            }
+
+
+        }
+    }
+}
+
+.clients {
+    background-image: linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+    padding: 3rem;
+    
+    .client-content
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

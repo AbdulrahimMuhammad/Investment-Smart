@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  background-color: #fff;
+  height: 1000rem; }
+
+.top-sec {
+  background-color: #050521;
+  padding: 0.8rem; }
+  .top-sec ul {
+    width: 100%; }
+  .top-sec li {
+    list-style: none;
+    margin-left: 3rem;
+    float: left; }
+    .top-sec li:first-child {
+      margin-left: 1rem; }
+    .top-sec li a {
+      text-decoration: none;
+      color: #fff; }
+
+.main-nav {
+  padding: 2rem;
+  background-color: #fff; }
+  .main-nav .nav-link {
+    color: #050521;
+    font-size: 16px;
+    margin-left: 1rem; }
+    .main-nav .nav-link:hover {
+      color: #DB9800; }
+
+.header {
+  height: 88vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.68))), url(../img/home-slider-1-slide-2.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(../img/home-slider-1-slide-2.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(../img/home-slider-1-slide-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(../img/home-slider-1-slide-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+  .header .main-caption {
+    position: absolute;
+    top: 26%;
+    left: 23%;
+    text-align: center;
+    color: #fff;
+    font-family: "Arvo", serif; }
+  .header h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -1.25px;
+    word-spacing: 0; }
+  .header h5 {
+    font-size: 1.7rem;
+    line-height: 28.8px;
+    font-weight: 400;
+    padding-bottom: 3rem; }
+  .header .main-button {
+    margin-top: 1.5rem; }
+
+.services {
+  text-align: center;
+  padding: 1.8rem;
+  width: 100%; }
+  .services .titles {
+    text-align: center;
+    display: inline-block; }
+    .services .titles h2 {
+      color: #050521;
+      font-family: "Arvo", serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -1.25px;
+      word-spacing: 0;
+      text-align: center;
+      padding: 2rem; }
+  .services .article {
+    text-align: center;
+    width: 100%; }
+    .services .article .article-items {
+      border: 1px solid #DB9800;
+      padding: 3rem;
+      margin: 2.5rem;
+      text-align: center; }
+      .services .article .article-items .art-icons {
+        font-size: 3rem;
+        color: #DB9800;
+        padding-bottom: 60rem; }
+      .services .article .article-items h6 {
+        color: #050521;
+        font-size: 1.2rem;
+        line-height: 30px;
+        font-weight: 800;
+        text-align: center;
+        font-family: "Open Sans", sans-serif; }
+        .services .article .article-items h6 a {
+          text-decoration: none;
+          color: #050521; }
+        .services .article .article-items h6 p {
+          font-family: "Open Sans", sans-serif;
+          font-size: 1rem;
+          line-height: 24px;
+          font-weight: 400;
+          text-align: center; }
+
+.about {
+  width: 100%; }
+  .about .mission {
+    background-color: #F2F3F8;
+    padding: 4rem 2rem 4.5rem 4rem; }
+    .about .mission .titles {
+      text-align: left;
+      display: inline-block; }
+      .about .mission .titles h2 {
+        color: #050521;
+        font-family: "Arvo", serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -1.25px;
+        word-spacing: 0;
+        text-align: center;
+        padding: 2rem;
+        padding: 1.5rem; }
+    .about .mission .about-img {
+      border: 1rem solid #fff;
+      -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      position: relative; }
+    .about .mission .sub-title h6 {
+      color: #050521;
+      font-size: 1.2rem;
+      line-height: 3rem;
+      margin-top: 1rem;
+      font-weight: 800;
+      font-family: "Arvo", serif; }
+    .about .mission p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.9rem;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: left; }
+  .about .risk {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 13, 38, 0.9))), url(../img/Laptop-with-graphs.jpg);
+    background-image: -webkit-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/Laptop-with-graphs.jpg);
+    background-image: -o-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/Laptop-with-graphs.jpg);
+    background-image: linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/Laptop-with-graphs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+    padding: 3rem; }
+    .about .risk .risk-content {
+      border: 1px solid grey;
+      padding: 3rem 4rem 5rem 4rem;
+      text-align: left; }
+      .about .risk .risk-content .titles {
+        text-align: left;
+        display: inline-block; }
+        .about .risk .risk-content .titles h2 {
+          color: #050521;
+          font-family: "Arvo", serif;
+          font-size: 2.5rem;
+          font-weight: 700;
+          letter-spacing: -1.25px;
+          word-spacing: 0;
+          text-align: center;
+          padding: 2rem;
+          color: #fff;
+          padding: 1rem; }
+      .about .risk .risk-content .sub-title h6 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        padding: 1rem 0; }
+      .about .risk .risk-content p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        line-height: 1.6rem;
+        font-weight: 400;
+        text-align: left;
+        font-family: "Open Sans", sans-serif; }
+      .about .risk .risk-content ul {
+        list-style-type: none;
+        padding: 1rem 0;
+        text-align: left; }
+        .about .risk .risk-content ul li {
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 400; }
+          .about .risk .risk-content ul li .about-icons {
+            color: #DB9800;
+            font-size: 0.9rem;
+            font-weight: 100; }
+      .about .risk .risk-content .about-btn {
+        padding: 1rem 4rem;
+        border: 0%;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-family: "Arvo", serif;
+        line-height: rem;
+        vertical-align: middle;
+        color: #fff;
+        background-color: #DB9800;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: inherit; }
+        .about .risk .risk-content .about-btn .btn-icon {
+          font-size: 0.9rem;
+          font-weight: 50; }
+
+.clients {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 13, 38, 0.9))), url(../img/digital-marketing-1725340_1920.jpg);
+  background-image: -webkit-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
+  background-image: -o-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
+  background-image: linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  padding: 3rem; }
