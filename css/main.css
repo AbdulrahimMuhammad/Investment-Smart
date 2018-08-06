@@ -155,7 +155,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     color: #fff;
-    padding: 3rem; }
+    padding: 2rem; }
     .about .risk .risk-content {
       border: 1px solid grey;
       padding: 3rem 4rem 5rem 4rem;
@@ -216,7 +216,7 @@ body {
           font-size: 0.9rem;
           font-weight: 50; }
 
-.clients {
+.about-2 .clients {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 13, 38, 0.9))), url(../img/digital-marketing-1725340_1920.jpg);
   background-image: -webkit-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
   background-image: -o-linear-gradient(rgba(13, 13, 38, 0.9)), url(../img/digital-marketing-1725340_1920.jpg);
@@ -226,4 +226,98 @@ body {
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
-  padding: 3rem; }
+  padding: 2rem; }
+  .about-2 .clients .clients-content {
+    border: 1px solid grey;
+    padding: 3rem 4rem 5rem 4rem;
+    text-align: left; }
+    .about-2 .clients .clients-content .titles h2 {
+      color: #050521;
+      font-family: "Arvo", serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -1.25px;
+      word-spacing: 0;
+      text-align: center;
+      padding: 2rem;
+      color: #fff;
+      padding: 1rem;
+      text-align: left;
+      padding-bottom: 1rem; }
+    .about-2 .clients .clients-content .reasons {
+      margin: 1rem; }
+      .about-2 .clients .clients-content .reasons .icon-box {
+        text-align: right; }
+        .about-2 .clients .clients-content .reasons .icon-box .clients-icon {
+          color: #CA970B;
+          font-size: 2.5rem;
+          text-align: right; }
+      .about-2 .clients .clients-content .reasons .sub-title h6 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        font-family: "Arvo", serif;
+        text-align: left;
+        padding: rem 0; }
+      .about-2 .clients .clients-content .reasons .sub-title p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        text-align: left;
+        color: #B3B3B3; }
+    .about-2 .clients .clients-content .about-btn {
+      padding: 1rem 4rem;
+      border: 0%;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: "Arvo", serif;
+      line-height: rem;
+      vertical-align: middle;
+      color: #fff;
+      background-color: #DB9800;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: inherit; }
+      .about-2 .clients .clients-content .about-btn .btn-icon {
+        font-size: 0.9rem;
+        font-weight: 50; }
+
+.about-2 .market {
+  background-color: #F2F3F8;
+  padding: 2rem; }
+  .about-2 .market .market-contents {
+    padding: 2rem; }
+    .about-2 .market .market-contents .v-box {
+      margin: 7rem auto;
+      border: 1rem solid #000;
+      -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); }
+      .about-2 .market .market-contents .v-box .i-frame {
+        width: 100%;
+        height: 100%; }
+  .about-2 .market .quote-row {
+    width: 100%; }
+    .about-2 .market .quote-row .vid-quote .quote-head {
+      margin-left: 2rem; }
+      .about-2 .market .quote-row .vid-quote .quote-head .quote-icon {
+        color: darkgrey;
+        font-size: 2.5rem;
+        display: inline-block;
+        padding-top: -1rem;
+        padding-right: 1rem;
+        float: left; }
+      .about-2 .market .quote-row .vid-quote .quote-head h5 {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        color: #050521;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+        float: left;
+        padding-top: 4rem;
+        margin-left: 1rem; }
+    .about-2 .market .quote-row .vid-quote p {
+      margin-left: 3rem;
+      padding-top: 0.5rem;
+      font-family: "Open Sans", sans-serif;
+      font-size: 0.7rem;
+      color: #9b9b9b;
+      font-weight: 400; }
