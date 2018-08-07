@@ -318,6 +318,44 @@ body {
       margin-left: 3rem;
       padding-top: 0.5rem;
       font-family: "Open Sans", sans-serif;
-      font-size: 0.7rem;
+      font-size: 0.9rem;
       color: #9b9b9b;
       font-weight: 400; }
+
+.teams {
+  width: 100%;
+  text-align: center; }
+  .teams .titles {
+    text-align: center;
+    display: inline-block; }
+    .teams .titles h2 {
+      color: #050521;
+      font-family: "Arvo", serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -1.25px;
+      word-spacing: 0;
+      text-align: center;
+      padding: 2rem;
+      padding: 7rem 0 1.5rem 0; }
+  .teams .team-info img {
+    position: relative;
+    text-align: center; }
+  .teams .team-info .team-name {
+    background-color: #050521;
+    margin-top: -5rem;
+    margin-left: 2rem;
+    padding: 1rem 1.6rem;
+    color: #fff;
+    width: 12rem;
+    text-align: center;
+    position: absolute; }
+    .teams .team-info .team-name a {
+      text-decoration: none;
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.2rem;
+      line-height: 30.8572px;
+      font-weight: 700; }
+      .teams .team-info .team-name a:hover {
+        color: #DB9800; }
